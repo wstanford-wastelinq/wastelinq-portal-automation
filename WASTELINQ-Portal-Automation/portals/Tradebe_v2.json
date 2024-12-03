@@ -1,0 +1,666 @@
+{
+    "Waste_Stream": [
+      {
+        "label": "Profile Approval Status",
+        "id": "__input3-__clone41-inner",
+        "type": "text",
+        "placeholder": "This is the status of the profile record.  A profile must have a status of Approved to be used for a Waste Shipment",
+        "disabled": true,
+        "value": "01 - Draft"
+      },
+      {
+        "label": "Tradebe Process Code",
+        "id": "__box1-__clone43-inner",
+        "type": "select",
+        "placeholder": "Completed by Tradebe Approvals",
+        "disabled": true,
+        "options": []
+      },
+      {
+        "label": "Approved Tradebe Facilities",
+        "id": "__box2-__clone46-inner",
+        "type": "multi_select",
+        "placeholder": "This field will be completed by Tradebe Approvals after submittal",
+        "disabled": true,
+        "options": []
+      },
+      {
+        "label": "Profile Number",
+        "id": "__input3-__clone48-inner",
+        "type": "text",
+        "placeholder": "Assigned by the Tradebe System",
+        "disabled": true
+      },
+      {
+        "label": "Customer Profile Number",
+        "id": "__input3-__clone50-inner",
+        "type": "text",
+        "placeholder": "Profile Number Used by the Customer",
+        "maxlength": 18
+      },
+      {
+        "label": "Texas State Code",
+        "id": "__input3-__clone52-inner",
+        "type": "text",
+        "placeholder": "Enter if applicable",
+        "maxlength": 8
+      },
+      {
+        "label": "Common Name for the Waste Stream",
+        "id": "__input3-__clone54-inner",
+        "type": "text",
+        "placeholder": "Waste Stream Name",
+        "maxlength": 40,
+        "required": true
+      },
+      {
+        "label": "Process Generating the Waste (Upload Flowcharts,if applicable)",
+        "id": "__area1-__clone56-inner",
+        "type": "textarea",
+        "placeholder": "Describe the Waste Generating Process",
+        "maxlength": 255,
+        "required": true
+      },
+      {
+        "label": "Is this waste exempt from RCRA regulation?",
+        "id": "__box1-__clone58-inner",
+        "type": "select",
+        "placeholder": "RCRA Exempt Y/N?",
+        "required": true,
+        "options": [
+          {"id": "__item392", "value": "N"},
+          {"id": "__item393", "value": "Y"}
+        ]
+      },
+
+      {
+        "label": "Is this waste from a CERCLA cleanup site?",
+        "id": "__box1-__clone62-inner",
+        "type": "select",
+        "placeholder": "CERCLA Waste Y/N?",
+        "required": true,
+        "options": [
+          {"id": "__item394", "value": "N"},
+          {"id": "__item395", "value": "Y"}
+        ]
+      },
+      {
+        "label": "Waste determination was made by",
+        "id": "__box2-__clone64-inner",
+        "type": "multi_select",
+        "placeholder": "Select at least one source",
+        "required": true,
+        "options": [
+          {"id": "__item396", "value": "Generator Knowledge"},
+          {"id": "__item397", "value": "Testing"},
+          {"id": "__item398", "value": "SDS/MSDS"},
+          {"id": "__item399", "value": "Sample"}
+        ]
+      },
+      {
+        "label": "Form Code",
+        "id": "__box1-__clone68-inner",
+        "type": "select",
+        "placeholder": "Select a Form code from the list",
+        "required": true,
+        "options": [
+          {"id": "__item400", "value": "W001 - ML - MIXED WASTE"},
+          {"id": "__item401", "value": "W002 - CONTAMINATED DEBRIS"},
+          {"id": "__item402", "value": "W004 - LAB PACKS"},
+          {"id": "__item403", "value": "W101 - VERY DILUTE SOLUTION"},
+          {"id": "__item404", "value": "W103 - SPENT CONCENTRATED ACID"},
+          {"id": "__item405", "value": "W105 - SPENT CONCENTRATED ALKALINE SOLUTION"},
+          {"id": "__item406", "value": "W107 - SPENT CONCENTRATED OTHER INORGANIC SOLUTION"}
+        ]
+      },
+      {
+        "label": "Source Code",
+        "id": "__box1-__clone70-inner",
+        "type": "select",
+        "placeholder": "Select a source code from the list",
+        "required": true,
+        "options": [
+          {"id": "__item407", "value": "G01 - TANK BOTTOMS"},
+          {"id": "__item408", "value": "G02 - SPILL CLEANUP RESIDUES"},
+          {"id": "__item409", "value": "G03 - SCALE OR SLUDGE"},
+          {"id": "__item410", "value": "G04 - SPENT CATALYSTS"},
+          {"id": "__item411", "value": "G05 - WASTE BYPRODUCTS"},
+          {"id": "__item412", "value": "G06 - RESIDUAL RAW MATERIALS"},
+          {"id": "__item413", "value": "G07 - DISCARDING OFF-SPECIFICATION MATERIALS"},
+          {"id": "__item414", "value": "G08 - DISCARDING OUT-OF-DATE MATERIALS"}
+        ]
+      }
+    ],
+    "Waste_Characteristics": [
+      {
+        "label": "Does the Waste have any of the following characteristics?",
+        "id": "__box3-__clone72-inner",
+        "type": "multi_select",
+        "placeholder": "Select all that may apply. If none are applicable, leave blank.",
+        "options": [
+          {"id": "__item355", "value": "SHOCK SENSITIVE"},
+          {"id": "__item356", "value": "PYROPHORIC"},
+          {"id": "__item357", "value": "AIR REACTIVE"},
+          {"id": "__item358", "value": "WATER REACTIVE"},
+          {"id": "__item359", "value": "EXPLOSIVE"},
+          {"id": "__item360", "value": "PEROXIDE FORMING"},
+          {"id": "__item361", "value": "STRONG OXIDIZER"},
+          {"id": "__item362", "value": "RADIOACTIVE"},
+          {"id": "__item363", "value": "BIOHAZARDOUS"},
+          {"id": "__item364", "value": "INFECTIOUS"},
+          {"id": "__item365", "value": "ETIOLOGIC AGENT"},
+          {"id": "__item366", "value": "CONTAINS ASBESTOS"},
+          {"id": "__item367", "value": "POISON"}
+        ]
+      },
+      {
+        "label": "Viscosity of the waste - In centipoise",
+        "id": "__input4-__clone74-inner",
+        "type": "number",
+        "placeholder": "Enter a positive or negative numeric value"
+      },
+      {
+        "label": "Specific Gravity",
+        "id": "__input4-__clone76-inner",
+        "type": "number",
+        "placeholder": "Enter the Specific Gravity of the Waste if known"
+      },
+      {
+        "label": "Total Organic Carbon (TOC)",
+        "id": "__input4-__clone78-inner",
+        "type": "number",
+        "placeholder": "Enter the Percentage of TOC in the Waste if known"
+      },
+      {
+        "label": "Total Halogens %",
+        "id": "__input4-__clone80-inner",
+        "type": "number",
+        "placeholder": "Enter the Percentage of Halogens in the Waste if known"
+      },
+      {
+        "label": "VOC %",
+        "id": "__input4-__clone82-inner",
+        "type": "number",
+        "placeholder": "Enter the Percentage of Volatile Organic Compounds in the Waste"
+      },
+      {
+        "label": "Odor",
+        "id": "__box4-__clone84-inner",
+        "type": "select",
+        "placeholder": "Select the Odor of the waste",
+        "options": [
+          {"id": "__item368", "value": "NONE"},
+          {"id": "__item369", "value": "MILD"},
+          {"id": "__item370", "value": "STRONG"},
+          {"id": "__item371", "value": "PUNGENT"},
+          {"id": "__item372", "value": "UNKNOWN"}
+        ]
+      },
+      {
+        "label": "Odor - Describe Strong",
+        "id": "__input4-__clone86-inner",
+        "type": "text",
+        "placeholder": "Examples include thiols, butyric acid, amines, mercaptan, and sulfides"
+      },
+      {
+        "label": "Color",
+        "id": "__input4-__clone88-inner",
+        "type": "text",
+        "placeholder": "Identify the Color of the Waste"
+      },
+      {
+        "label": "Physical State at 70 Degrees F",
+        "id": "__box4-__clone90-inner",
+        "type": "select",
+        "placeholder": "Select the Physical State of the Waste",
+        "options": [
+          {"id": "__item373", "value": "SOLID"},
+          {"id": "__item374", "value": "LIQUID"},
+          {"id": "__item375", "value": "GAS"},
+          {"id": "__item376", "value": "SLUDGE"},
+          {"id": "__item377", "value": "AEROSOL"}
+        ]
+      },
+      {
+        "label": "Phases",
+        "id": "__box4-__clone94-inner",
+        "type": "select",
+        "placeholder": "Select the number of Phases",
+        "options": [
+          {"id": "__item378", "value": "1"},
+          {"id": "__item379", "value": "2"},
+          {"id": "__item380", "value": "3"},
+          {"id": "__item381", "value": "MORE THAN 3"}
+        ]
+      },
+      {
+        "label": "BTU Range",
+        "id": "__box4-__clone98-inner",
+        "type": "select",
+        "placeholder": "Select the BTU Range Value",
+        "options": [
+          {"id": "__item382", "value": "< 1000"},
+          {"id": "__item383", "value": "1000 - 2500"},
+          {"id": "__item384", "value": "2500 - 5000"},
+          {"id": "__item385", "value": "5000 - 10000"},
+          {"id": "__item386", "value": "> 10000"}
+        ]
+      },
+      {
+        "label": "pH Range",
+        "id": "__box4-__clone100-inner",
+        "type": "select",
+        "placeholder": "Select the pH range of the Waste.",
+        "options": [
+          {"id": "__item387", "value": "< 2.0"},
+          {"id": "__item388", "value": "2.0 - 5.9"},
+          {"id": "__item389", "value": "6.0 - 8.9"},
+          {"id": "__item390", "value": "9.0 - 12.4"},
+          {"id": "__item391", "value": "> 12.4"}
+        ]
+      },
+      {
+        "label": "Liquid Flashpoint",
+        "id": "__box4-__clone102-inner",
+        "type": "select",
+        "placeholder": "Select the Flashpoint range of the Waste",
+        "options": [
+          {"id": "__item349", "value": "NONE"},
+          {"id": "__item350", "value": "< 73 F"},
+          {"id": "__item351", "value": "73 - 99 F"},
+          {"id": "__item352", "value": "100 - 139 F"},
+          {"id": "__item353", "value": "140 - 200 F"},
+          {"id": "__item354", "value": "> 200 F"}
+        ]
+      },
+      {
+        "label": "Boiling Point - Degrees Fahrenheit",
+        "id": "__input4-__clone104-inner",
+        "type": "number",
+        "placeholder": "Enter the Boiling Point of the Waste if known"
+      }
+    ],
+  "Additional_Information": [
+    {
+      "label": "Does the waste contain any of the following?",
+      "id": "__box9-__clone107-inner",
+      "type": "multi_select",
+      "placeholder": "Please select from the list if applicable",
+      "options": [
+        {"id": "__item379","value": "METAL PIECES"},
+        {"id": "__item380","value": "NITROCELLULOSE"},
+        {"id": "__item381","value": "ISOCYANATES"},
+        {"id": "__item382","value": "METAL POWDER OR FLAKE"},
+        {"id": "__item383","value": "SHARPS"},
+        {"id": "__item384","value": "ASBESTOS"},
+        {"id": "__item385","value": "REACTIVE CYANIDE"},
+        {"id": "__item386","value": "REACTIVE SULFIDE"},
+        {"id": "__item387","value": "PCBS"},
+        {"id": "__item388","value": "HYDROFLUORIC ACID"},
+        {"id": "__item389","value": "NITRIC ACID"}
+      ]
+    },
+    {
+      "label": "Describe Metal (If Yes)",
+      "id": "__input8-__clone109-inner",
+      "type": "text",
+      "required": true,
+      "placeholder": "Describe the Metal Pieces",
+      "maxLength": 30,
+      "title": "How big are the piece of metals, please explain in detail"
+    },
+    {
+      "label": "Cyanide Level",
+      "id": "__input8-__clone111-inner", 
+      "type": "number",
+      "required": true,
+      "maxLength": 8
+    },
+    {
+      "label": "Sulfides Level",
+      "id": "__input8-__clone113-inner",
+      "type": "number", 
+      "required": true,
+      "maxLength": 8
+    },
+    {
+      "label": "PCB Range (If Yes)  * Certification Form Required",
+      "id": "__box10-__clone115-inner",
+      "type": "select",
+      "required": true,
+      "placeholder": "Select the PCB Range in ppm",
+      "title": "Please indicate the level of PCB's found in the waste, utilizing analytical, sds, or manufacture labels"
+    },
+    {
+      "label": "Does this Waste contain Benzene subject to Subpart FF Regulations?   * If the waste contains Benzene, it may be subject to Benzene Neshap rules. Please complete and submit Tradebe's benzene neshap FORM.",
+      "id": "__box10-__clone117-inner",
+      "type": "select",
+      "placeholder": "Yes / No ?",
+      "options": [
+        {"id": "__item424", "value": "N"},
+        {"id": "__item425", "value": "Y"}
+      ]
+    },
+    {
+      "label": "Is this waste a Used Oil per 40CFR part 279?",
+      "id": "__box10-__clone119-inner",
+      "type": "select",
+      "placeholder": "Yes / No ?",
+      "required": true,
+      "options": [
+        {"id": "__item426", "value": "N"},
+        {"id": "__item427", "value": "Y"}
+      ]
+    },
+    {
+      "label": "If Yes, Do the Halogens exceed 1,000ppm?",
+      "id": "__box10-__clone121-inner",
+      "type": "select",
+      "placeholder": "Yes / No ?",
+      "required": true,
+      "options": [
+        {"id": "__item426", "value": "N"},
+        {"id": "__item427", "value": "Y"}
+      ]
+    },
+    {
+      "label": "If Yes, Can you identify the Chlorinated Constiuent in the oil?",
+      "id": "__box10-__clone123-inner",
+      "type": "select",
+      "required": true,
+      "placeholder": "Yes / No ?",
+      "title": "eg: Ttetrachloroethylene, Methylene Chloride.",
+      "options": [
+        {"id": "__item426", "value": "N"},
+        {"id": "__item427", "value": "Y"}
+      ]
+    },
+    {
+      "label": "If Yes, Can you rebut the presumption the material is hazardous waste?",
+      "id": "__box10-__clone125-inner",
+      "type": "select",
+      "placeholder": "Yes / No ?",
+      "required": true,
+      "options": [
+        {"id": "__item428", "value": "N"},
+        {"id": "__item429", "value": "Y"}
+      ]
+    },
+    {
+      "label": "Is the Waste subject to RCRA 40 CFR 264 & 265 subpart CC controls (Are Volatile Organic Compounds >500ppm)?",
+      "id": "__box10-__clone127-inner",
+      "type": "select",
+      "placeholder": "Yes / No ?",
+      "required": true,
+      "options": [
+        {"id": "__item428", "value": "N"},
+        {"id": "__item429", "value": "Y"}
+      ]
+    },
+    {
+      "label": "Does the waste contain any of the 172 per-or polyfluoroalkyl substances (PFAS)?",
+      "id": "__box10-__clone131-inner",
+      "type": "select",
+      "placeholder": "Yes / No ?",
+      "required": true,
+      "options": [
+        {"id": "__item430", "value": "N"},
+        {"id": "__item431", "value": "Y"}
+      ]
+    }
+  ],
+  "RCRA_Characterization": [
+    {
+      "label": "Is this a USEPA Hazardous Waste as defined in 40 CFR 261.3?",
+      "id": "__box11-__clone133-inner",
+      "type": "select",
+      "placeholder": "Yes / No ?",
+      "required": true,
+      "options": [
+        {"id": "__item432", "value": "N"},
+        {"id": "__item433", "value": "Y"}
+      ]
+    },
+    {
+      "label": "Is this Universal Waste per 40 CFR Part 273?",
+      "id": "__box11-__clone135-inner",
+      "type": "select",
+      "placeholder": "Yes / No ?",
+      "required": true,
+      "options": [
+        {"id": "__item434", "value": "N"},
+        {"id": "__item435", "value": "Y"}
+      ]
+    },
+    {
+      "label": "Does treatment of this waste generate F006 or F019 sludge?",
+      "id": "__box11-__clone137-inner",
+      "type": "select",
+      "placeholder": "Yes / No ?",
+      "required": true,
+      "options": [
+        {"id": "__item436", "value": "N"},
+        {"id": "__item437", "value": "Y"}
+      ]
+    },
+    {
+      "label": "Please Identify Federal & State Waste Codes",
+      "id": "__box12-__clone139-inner",
+      "type": "multi_select",
+      "placeholder": "Select all that may apply",
+      "options": [
+        {"id": "__item438", "value": "D001"},
+        {"id": "__item439", "value": "D002"},
+        {"id": "__item440", "value": "D003"},
+        {"id": "__item441", "value": "D004"},
+        {"id": "__item442", "value": "D005"},
+        {"id": "__item443", "value": "D006"},
+        {"id": "__item444", "value": "D007"},
+        {"id": "__item445", "value": "D008"},
+        {"id": "__item446", "value": "D009"},
+        {"id": "__item447", "value": "D010"},
+        {"id": "__item448", "value": "D011"},
+        {"id": "__item449", "value": "F001"},
+        {"id": "__item450", "value": "F002"},
+        {"id": "__item451", "value": "F003"},
+        {"id": "__item452", "value": "F004"},
+        {"id": "__item453", "value": "F005"}
+      ]
+    },
+    {
+      "label": "Wastewater",
+      "id": "__box11-__clone145-inner",
+      "type": "select",
+      "placeholder": "Yes / No ?",
+      "required": true,
+      "value": "No",
+      "options": [
+        {"id": "__item454", "value": "N"},
+        {"id": "__item455", "value": "Y"}
+      ]
+    },
+    {
+      "label": "Non Wastewater",
+      "id": "__box11-__clone147-inner",
+      "type": "select",
+      "placeholder": "Yes / No ?",
+      "required": true,
+      "value": "Yes",
+      "options": [
+        {"id": "__item456", "value": "N"},
+        {"id": "__item457", "value": "Y"}
+      ]
+    }
+  ],
+"Expected_shipping_volume_and_frequency": [
+    {
+      "label": "Bulk Liquid ? (Tanker)",
+      "id": "__box13-__clone149-inner",
+      "type": "select",
+      "placeholder": "Yes  /   No ?",
+      "options": [
+        {"id": "__item458", "value": "N"},
+        {"id": "__item459", "value": "Y"}
+      ]
+    },
+    {
+      "label": "Bulk Solid ?",
+      "id": "__box13-__clone153-inner",
+      "type": "select",
+      "placeholder": "Yes  /   No ?",
+      "options": [
+        {"id": "__item460", "value": "N"},
+        {"id": "__item461", "value": "Y"}
+      ]
+    },
+    {
+      "label": "Totes ?",
+      "id": "__box13-__clone157-inner",
+      "type": "select",
+      "placeholder": "Yes  /   No ?",
+      "options": [
+        {"id": "__item462", "value": "N"},
+        {"id": "__item463", "value": "Y"}
+      ]
+    },
+    {
+      "label": "Container Size ?",
+      "id": "__box14-__clone159-inner",
+      "type": "multi_select",
+      "placeholder": "Please identify the material of the tote used for shipment",
+      "required": true,
+      "options": [
+        {"id": "__item464", "value": "METAL"},
+        {"id": "__item465", "value": "PLASTIC IN METAL CAGE"}
+      ]
+    },
+    {
+      "label": "Container Size ?",
+      "id": "__box14-__clone161-inner",
+      "type": "multi_select",
+      "placeholder": "Please select the size of the container used for shipment",
+      "required": true,
+      "options": [
+        {"id": "__item464", "value": "5 GAL"},
+        {"id": "__item465", "value": "30 GAL"},
+        {"id": "__item466", "value": "55 GAL"},
+        {"id": "__item467", "value": "275 GAL"},
+        {"id": "__item468", "value": "330 GAL"},
+        {"id": "__item469", "value": "CUBIC YARD BOX"},
+        {"id": "__item470", "value": "20 YARD ROLLOFF"},
+        {"id": "__item471", "value": "30 YARD ROLLOFF"},
+        {"id": "__item472", "value": "40 YARD ROLLOFF"}
+      ]
+    },
+    {
+      "id": "__box14-__clone165-inner",
+      "type": "multiselect",
+      "role": "combobox",
+      "value": "",
+      "aria-labelledby": "__label28-__clone164",
+      "aria-describedby": "__text35",
+      "aria-roledescription": "Multi Value Combo Box",
+      "options": [
+        {"id": "__item443", "value": "FIBERBOARD"},
+        {"id": "__item444", "value": "METAL"},
+        {"id": "__item445", "value": "PLASTIC"}
+      ]
+    },
+    {
+      "label": "Shipping Frequency ?",
+      "id": "__box13-__clone167-inner",
+      "type": "select",
+      "placeholder": "Please select the estimated frequency that the material will ship",
+      "required": true,
+      "options": [
+        {"id": "__item473", "value": "ONE TIME"},
+        {"id": "__item474", "value": "WEEKLY"},
+        {"id": "__item475", "value": "MONTHLY"},
+        {"id": "__item476", "value": "QUARTERLY"},
+        {"id": "__item477", "value": "ANNUALLY"},
+        {"id": "__item478", "value": "AS NEEDED"}
+      ]
+    },
+    {
+      "label": "Expected Quantity ?",
+      "id": "__input9-__clone171-inner",
+      "type": "number",
+      "placeholder": "Please enter the estimated number of units",
+      "maxlength": 10
+    },
+    {
+      "label": "Is the waste contained in a combination package?",
+      "id": "__box13-__clone173-inner",
+      "type": "select",
+      "placeholder": "Yes / No ?",
+      "required": true,
+      "options": [
+        {"id": "__item479", "value": "N"},
+        {"id": "__item480", "value": "Y"}
+      ]
+    }
+  ],
+  "DOT_shipping_information": [
+    {
+      "label": "Is this a U.S. Department of Transportation (USDOT) Hazardous Material?",
+      "id": "__box15-__clone175-inner",
+      "type": "select",
+      "value": "YES",
+      "required": true,
+      "disabled": true,
+      "title": "Answer yes if your waste requires a proper shipping name, hazard class and UN/NA number"
+    },
+    {
+      "label": "Shipping Name per 49 CFR 172.101 Hazardous Material Table",
+      "id": "__vol0-inner",
+      "type": "text",
+      "required": true,
+      "title": "Use the table provided to select and build the DOT Shipping Name. Search by Shipping Description or by UN / NA number."
+    },
+    {
+      "label": "Is the material a RCRA Waste?",
+      "id": "__box15-__clone178-inner",
+      "type": "select",
+      "placeholder": "Yes / No ?",
+      "required": true,
+      "title": "Select 'Yes' if your waste stream carries RCRA waste codes",
+      "options": [
+        {"id": "__item479", "value": "N"},
+        {"id": "__item480", "value": "Y"}
+      ]
+    },
+    {
+      "label": "Technical Descriptors:",
+      "id": "__area2-__clone180-inner",
+      "type": "textarea",
+      "placeholder": "Add a maximum of two chemical constituents if required",
+      "maxLength": 255,
+      "title": "Review 49 CFR 172.203(k) for explanation of when technical descriptors are required and indicate one or two descriptors as applicable."
+    },
+    {
+      "label": "Reportable Quantity (RQ):",
+      "id": "__input10-__clone182-inner",
+      "type": "text",
+      "placeholder": "Example: (RQ D001), (RQ Arsenic), (RQ 100 LBS.)",
+      "maxLength": 20,
+      "title": "Review Table 1 to Appendix A in 172.101, Hazardous substances other than Radionuclides, and indicate the RQ value if applicable."
+    },
+    {
+      "label": "Using a DOT Special Permit for Transportation ?",
+      "id": "__box15-__clone184-inner",
+      "type": "select",
+      "placeholder": "Yes / No ?",
+      "title": "Include the DOT-SP number required for the transporter. Enter 'None' if not applicable.",
+      "options": [
+        {"id": "__item479", "value": "N"},
+        {"id": "__item480", "value": "Y"}
+      ]
+    },
+    {
+      "label": "DOT Shipping Name",
+      "id": "__input10-__clone188-inner",
+      "type": "text",
+      "disabled": true
+    }
+  ]
+}

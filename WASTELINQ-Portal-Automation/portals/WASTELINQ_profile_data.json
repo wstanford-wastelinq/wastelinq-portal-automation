@@ -1,0 +1,1053 @@
+{
+  "Describe the waste.": {
+    "database": "network",
+    "table_name": "generator_profile_systeminformation",
+    "name": "ProfileDescription",
+    "options": "",
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "Describe the process that generated the waste. Provide as much detail as possible.": {
+    "database": "network",
+    "table_name": "generator_generatingprocessandmaterialcomposition",
+    "name": "ProcessGeneratingTheWaste",
+    "options": "",
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "What is the chemical composition of the waste?": {
+    "database": "network",
+    "table_name": "generator_wasteprofilechemical",
+    "name": "ChemicalPhysicalComposition",
+    "options": "",
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "What is the CAS # of the chemical": {
+    "database": "network",
+    "table_name": "generator_wasteprofilechemical",
+    "name": "CAS",
+    "options": "",
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "What is average or most common percentage of this component in the waste?": {
+    "database": "network",
+    "table_name": "generator_wasteprofilechemical",
+    "name": "Typical",
+    "options": "",
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "What is the minimum amount of this component that might be present in the waste?": {
+    "database": "network",
+    "table_name": "generator_wasteprofilechemical",
+    "name": "Min",
+    "options": "",
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "What is the maximum amount of this component that might be present in the waste?": {
+    "database": "network",
+    "table_name": "generator_wasteprofilechemical",
+    "name": "Max",
+    "options": "",
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "What unit type is typical, min, and max? Vol %, Wt%, or PPM": {
+    "database": "network",
+    "table_name": "generator_wasteprofilechemical",
+    "name": "UnitType",
+    "options": ["Vol %", "Wt%", "PPM"],
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "What is the reportable quantity threshold for this chemical?": {
+    "database": "network",
+    "table_name": "generator_wasteprofilechemical",
+    "name": "RQ",
+    "options": "",
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "Is this chemical on the Toxic Release Inventory as defined by the EPA?": {
+    "database": "network",
+    "table_name": "generator_wasteprofilechemical",
+    "name": "TriChemical",
+    "options": ["true", "false"],
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "Color": {
+    "database": "network",
+    "table_name": "generator_physicalandchemicalproperties",
+    "name": "PCPColor",
+    "options": "",
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "Odor": {
+    "database": "network",
+    "table_name": "generator_physicalandchemicalproperties",
+    "name": "PCPOdor",
+    "options": ["None", "Mild", "Strong", "Other"],
+    "Context": "",
+    "Associated Question": "Odor - Additional Description if other",
+    "trigger": "Other"
+  },
+  "Odor - Additional Description if other": {
+    "database": "network",
+    "table_name": "generator_physicalandchemicalproperties",
+    "name": "PCPOdor_Radio_Plus_Option",
+    "options": "",
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "pH": {
+    "database": "network",
+    "table_name": "generator_physicalandchemicalproperties",
+    "name": "PCpH",
+    "options": ["≤ 2", "> 2 to ≤ 5", "> 5 to ≤ 10", "> 10 to ≤ 12.5", "≥ 12.5", "N/A", "Custom"],
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "Flash Point": {
+    "database": "network",
+    "table_name": "generator_physicalandchemicalproperties",
+    "name": "PCFlashPoint",
+    "options": ["< 73°F", "≥ 73°F to < 100°F", "≥ 100°F to < 140°F", "≥ 140°F to < 150°F", "≥ 150°F to < 200°F", "≥ 200°F", "N/A", "Actual"],
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "Flash Point Method": {
+    "database": "network",
+    "table_name": "generator_physicalandchemicalproperties",
+    "name": "PCFlashPoint_Method",
+    "options": ["Closed Cup", "Open Cup"],
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "BTU Value": {
+    "database": "network",
+    "table_name": "generator_physicalandchemicalproperties",
+    "name": "PCPBTUValue",
+    "options": ["0 - 4999", "5000 - 10000", "> 10000", "Other"],
+    "Context": "",
+    "Associated Question": "BTU Value - Additional Description if other",
+    "trigger": "Other"
+  },
+  "BTU Value - Additional Description if other": {
+    "database": "network",
+    "table_name": "generator_physicalandchemicalproperties",
+    "name": "PCPBTU_Radio_Plus_Option",
+    "options": "",
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "Boiling Point": {
+    "database": "network",
+    "table_name": "generator_physicalandchemicalproperties",
+    "name": "PCPBoilingPointValue",
+    "options": ["≤95F", ">95F", "N/A"],
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "Total Organic Carbon (TOC)": {
+    "database": "network",
+    "table_name": "generator_physicalandchemicalproperties",
+    "name": "PCPTotalOrganicCarbonValue",
+    "options": ["<1%", "1-9%", ">10%", "N/A"],
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "Viscosity": {
+    "database": "network",
+    "table_name": "generator_physicalandchemicalproperties",
+    "name": "PCPViscosity",
+    "options": ["1 - 100 (Water)", "101 - 500 (Motor Oil)", "501 - 10,000 (Molasses)", "> 10,000", "Other"],
+    "Context": "",
+    "Associated Question": "Viscosity - Additional Description if other",
+    "trigger": "Other"
+  },
+  "Viscosity - Additional Description if other": {
+    "database": "network",
+    "table_name": "generator_physicalandchemicalproperties",
+    "name": "PCPViscosity_Radio_Plus_Option",
+    "options": "",
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "Specific Gravity (Water = 1):": {
+    "database": "network",
+    "table_name": "generator_physicalandchemicalproperties",
+    "name": "PCSpecificGravity",
+    "options": "",
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "Physical State, percent Solid (must add up to 100%):": {
+    "database": "network",
+    "table_name": "generator_physicalandchemicalproperties",
+    "name": "PCPhysicalStateSolid2",
+    "options": "",
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "Physical State, percent Liquid (must add up to 100%):": {
+    "database": "network",
+    "table_name": "generator_physicalandchemicalproperties",
+    "name": "PCPPhysicalStateLiquid2",
+    "options": "",
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "Physical State, percent Sludge (must add up to 100%):": {
+    "database": "network",
+    "table_name": "generator_physicalandchemicalproperties",
+    "name": "PCPPhysicalStateSludge2",
+    "options": "",
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "Physical State, percent Gas (must add up to 100%):": {
+    "database": "network",
+    "table_name": "generator_physicalandchemicalproperties",
+    "name": "PCPPhysicalStateGas2",
+    "options": "",
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "Physical State, percent Ash (must add up to 100%):": {
+    "database": "network",
+    "table_name": "generator_physicalandchemicalproperties",
+    "name": "PCPPhysicalStateAsh2",
+    "options": "",
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "Physical State, percent Powder (must add up to 100%):": {
+    "database": "network",
+    "table_name": "generator_physicalandchemicalproperties",
+    "name": "PCPPhysicalStatePowder2",
+    "options": "",
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "Number Of Phases/Layers": {
+    "database": "network",
+    "table_name": "generator_physicalandchemicalproperties",
+    "name": "PCNumberOfPhases_Layer",
+    "options": ["1", "2", "3"],
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "Other Properties - Explosive": {
+    "database": "network",
+    "table_name": "generator_physicalandchemicalproperties",
+    "name": "PCPOtherPropertiesExplosive",
+    "options": ["true", "false"],
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "Other Properties - Thermally Unstable": {
+    "database": "network",
+    "table_name": "generator_physicalandchemicalproperties",
+    "name": "PCPOtherPropertiesThermallyUnstable",
+    "options": ["true", "false"],
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "Other Properties - Shock Sensitive": {
+    "database": "network",
+    "table_name": "generator_physicalandchemicalproperties",
+    "name": "PCPOtherPropertiesShockSensitive",
+    "options": ["true", "false"],
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "Other Properties - Pyrophoric": {
+    "database": "network",
+    "table_name": "generator_physicalandchemicalproperties",
+    "name": "PCPOtherPropertiesPyrophoric",
+    "options": ["true", "false"],
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "Other Properties - Oxidizer": {
+    "database": "network",
+    "table_name": "generator_physicalandchemicalproperties",
+    "name": "PCPOtherPropertiesOxidizer",
+    "options": ["true", "false"],
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "Other Properties - Water Reactive": {
+    "database": "network",
+    "table_name": "generator_physicalandchemicalproperties",
+    "name": "PCPOtherPropertiesWaterReactive",
+    "options": ["true", "false"],
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "Other Properties - Air Reactive": {
+    "database": "network",
+    "table_name": "generator_physicalandchemicalproperties",
+    "name": "PCPOtherPropertiesAirReactive",
+    "options": ["true", "false"],
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "Other Properties - Polymerizable": {
+    "database": "network",
+    "table_name": "generator_physicalandchemicalproperties",
+    "name": "PCPOtherPropertiesPolymerizable",
+    "options": ["true", "false"],
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "Other Properties - Polymerizable Inhibited": {
+    "database": "network",
+    "table_name": "generator_physicalandchemicalproperties",
+    "name": "PCPOtherPropertiesPolymerizableInhibited",
+    "options": ["true", "false"],
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "Other Properties - Abestos Friable": {
+    "database": "network",
+    "table_name": "generator_physicalandchemicalproperties",
+    "name": "PCPOtherPropertiesAbestosFriable",
+    "options": ["true", "false"],
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "Other Properties - Absents NonFriable": {
+    "database": "network",
+    "table_name": "generator_physicalandchemicalproperties",
+    "name": "PCPOtherPropertiesAbestosNonFriable",
+    "options": ["true", "false"],
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "Other Properties - Metal Fines": {
+    "database": "network",
+    "table_name": "generator_physicalandchemicalproperties",
+    "name": "PCPOtherPropertiesMetalFines",
+    "options": ["true", "false"],
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "Other Properties - Organic Peroxides": {
+    "database": "network",
+    "table_name": "generator_physicalandchemicalproperties",
+    "name": "PCPOtherPropertiesOrganaicPeroxides",
+    "options": ["true", "false"],
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "Other Properties - Dioxins": {
+    "database": "network",
+    "table_name": "generator_physicalandchemicalproperties",
+    "name": "PCPOtherPropertiesDioxins",
+    "options": ["true", "false"],
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "Other Properties - Furans": {
+    "database": "network",
+    "table_name": "generator_physicalandchemicalproperties",
+    "name": "PCPOtherPropertiesFurans",
+    "options": ["true", "false"],
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "Other Properties - NONE": {
+    "database": "network",
+    "table_name": "generator_physicalandchemicalproperties",
+    "name": "",
+    "options": ["true", "false"],
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "Restricted Under LDR": {
+    "database": "network",
+    "table_name": "generator_physicalandchemicalproperties",
+    "name": "RegulatoryRestrictedUnderLDR",
+    "options": ["Yes", "No"],
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "UHCs": {
+    "database": "network",
+    "table_name": "generator_physicalandchemicalproperties",
+    "name": "RegulatoryUHCs",
+    "options": ["Yes", "No"],
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "< 500 PPM VOC": {
+    "database": "network",
+    "table_name": "generator_physicalandchemicalproperties",
+    "name": "Regulatory500PPMVOC",
+    "options": ["Yes", "No"],
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "Alternative Standards of Soil": {
+    "database": "network",
+    "table_name": "generator_physicalandchemicalproperties",
+    "name": "RegulatoryAlternativeStandardsofSoil",
+    "options": ["Yes", "No"],
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "LDR Subcategory": {
+    "database": "network",
+    "table_name": "generator_physicalandchemicalproperties",
+    "name": "RegulatoryLDRSubcaterogy",
+    "options": ["Wastewater", "Non Wastewater", "N/A"],
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "US EPA Hazardous Waste?": {
+    "database": "network",
+    "table_name": "generator_profile_systeminformation",
+    "name": "HazardousWaste",
+    "options": ["Yes", "No"],
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "RCRA Exempt?": {
+    "database": "network",
+    "table_name": "generator_profile_systeminformation",
+    "name": "RCRAExempt",
+    "options": ["Yes", "No"],
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "Is the solid waste excluded or exempt from regulations as a hazardous waste?": {
+    "database": "network",
+    "table_name": "generator_regulatoryinformation",
+    "name": "SolidwasteExcludedunder261",
+    "options": ["Yes", "No"],
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "Is the waste a F-listed hazardous waste per 261.31? (List all applicable waste codes)?": {
+    "database": "network",
+    "table_name": "generator_regulatoryinformation",
+    "name": "WCHazardousF",
+    "options": ["Yes", "No"],
+    "Context": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-I/part-261/subpart-D/section-261.31",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "Is the waste a K-listed hazardous waste per 261.32? (List all applicable waste codes)?": {
+    "database": "network",
+    "table_name": "generator_regulatoryinformation",
+    "name": "WCHazardousK",
+    "options": ["Yes", "No"],
+    "Context": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-I/part-261/subpart-D#261.32",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "Is the waste a P-listed hazardous waste per 261.33? (List all applicable waste codes)?": {
+    "database": "network",
+    "table_name": "generator_regulatoryinformation",
+    "name": "WCHazardousP",
+    "options": ["Yes", "No"],
+    "Context": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-I/part-261/subpart-D#261.33",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "Is the waste a U-listed hazardous waste per 261.33? (List all applicable waste codes)?": {
+    "database": "network",
+    "table_name": "generator_regulatoryinformation",
+    "name": "WCHazardousU",
+    "options": ["Yes", "No"],
+    "Context": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-I/part-261/subpart-D#261.33",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "Is the waste a ignitable hazardous waste per 261.21? (List all applicable waste codes)": {
+    "database": "network",
+    "table_name": "generator_regulatoryinformation",
+    "name": "WCHazardousIgnitable",
+    "options": ["Yes", "No"],
+    "Context": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-I/part-261#se40.28.261_121",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "Is the waste a corrosive hazardous waste per 261.22? (List all applicable waste codes)": {
+    "database": "network",
+    "table_name": "generator_regulatoryinformation",
+    "name": "WCHazardousCorrosive",
+    "options": ["Yes", "No"],
+    "Context": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-I/part-261#261.22",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "Is the waste a reactive hazardous waste per 261.23? (List all applicable waste codes)": {
+    "database": "network",
+    "table_name": "generator_regulatoryinformation",
+    "name": "WCHazardousReactive",
+    "options": ["Yes", "No"],
+    "Context": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-I/part-261#261.23",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "Is the waste a toxic hazardous waste per 261.24? (List all applicable waste codes)": {
+    "database": "network",
+    "table_name": "generator_regulatoryinformation",
+    "name": "WCHazardousToxic",
+    "options": ["Yes", "No"],
+    "Context": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-I/part-261#261.24",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "One-Time Number Needed?": {
+    "database": "network",
+    "table_name": "generator_regulatoryinformation",
+    "name": "OneTimeNumberNeeded",
+    "options": ["Yes", "No"],
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "Texas State Waste Code": {
+    "database": "network",
+    "table_name": "generator_regulatoryinformation",
+    "name": "StateWasteCode",
+    "options": "",
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "Federal Universal Waste?": {
+    "database": "network",
+    "table_name": "generator_regulatoryinformation",
+    "name": "UniversalWaste",
+    "options": ["Yes", "No"],
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "State Universal Waste": {
+    "database": "network",
+    "table_name": "generator_regulatoryinformation",
+    "name": "StateUniversalWaste",
+    "options": ["Yes", "No"],
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "Used Oil": {
+    "database": "network",
+    "table_name": "generator_regulatoryinformation",
+    "name": "UsedOil",
+    "options": ["Yes", "No"],
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "TSCA Regulated PCB Waste": {
+    "database": "network",
+    "table_name": "generator_regulatoryinformation",
+    "name": "TSCARegulatedPCBWaste",
+    "options": ["Yes", "No"],
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "CERCLA Regulated Waste": {
+    "database": "network",
+    "table_name": "generator_regulatoryinformation",
+    "name": "CERCLARegulatedWaste",
+    "options": ["Yes", "No"],
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "Benzene NESHAP Waste": {
+    "database": "network",
+    "table_name": "generator_regulatoryinformation",
+    "name": "BenzeneNESHAPWaste",
+    "options": ["Yes", "No"],
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "Halogenated Organic Compound": {
+    "database": "network",
+    "table_name": "generator_regulatoryinformation",
+    "name": "HalogenatedOrganicCompound",
+    "options": ["Yes", "No"],
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "Recycle/Reuse?": {
+    "database": "network",
+    "table_name": "generator_regulatoryinformation",
+    "name": "RecycleReuse",
+    "options": ["Yes", "No"],
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "Product/Co-Product?": {
+    "database": "network",
+    "table_name": "generator_regulatoryinformation",
+    "name": "ProductCoProduct",
+    "options": ["Yes", "No"],
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "Medical Waste": {
+    "database": "network",
+    "table_name": "generator_regulatoryinformation",
+    "name": "MedicalWaste",
+    "options": ["Yes", "No"],
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "EPA Source": {
+    "database": "network",
+    "table_name": "generator_regulatoryinformation",
+    "name": "EPASource",
+    "options": [
+      "N/A",
+      "G01 - DIP FLUSH OR SPRAY RINSING",
+      "G02 - STRIPPING AND ACID OR CAUSTIC CLEANING",
+      "G03 - PLATING AND PHOSPHATING",
+      "G04 - ETCHING",
+      "G05 - METAL FORMING AND TREATMENT (PICKLING HEAT TREATING ETC.)",
+      "G06 - PAINTING AND COATING",
+      "G07 - PRODUCT AND BY-PRODUCT PROCESSING",
+      "G08 - REMOVAL OF SPENT PROCESS LIQUIDS OR CATALYSTS",
+      "G09 - OTHER PRODUCTION OR SERVICE-RELATED PROCESSES",
+      "G11 - DISCARDING OFF-SPECIFICATION OR OUT-OF-DATE CHEMICALS OR PRODUCTS",
+      "G12 - LAGOON OR SEDIMENT DRAGOUT AND LEACHATE COLLECTION",
+      "G13 - CLEANING OUT PROCESS EQUIPMENT",
+      "G14 - REMOVAL OF TANK SLUDGE SEDIMENTS OR SLAG",
+      "G15 - PROCESS EQUIPMENT CHANGE-OUT OR DISCONTINUATION OF EQUIPMENT USE",
+      "G16 - OIL CHANGES AND FILTER OR BATTERY REPLACEMENT",
+      "G17 - SUBPART K LABORATORY WASTE CLEAN-OUT",
+      "G19 - OTHER ONE-TIME OR INTERMITTENT PROCESSES",
+      "G21 - AIR POLLUTION CONTROL DEVICES (BAGHOUSE DUST ETC.)",
+      "G22 - LABORATORY ANALYTICAL WASTES (USED CHEMICALS)",
+      "G23 - WASTEWATER TREATMENT (SLUDGE FILTER CAKE ETC.)",
+      "G24 - SOLVENT OR PRODUCT DISTILLATION OR RECOVERY (SLUDGE WASTE)",
+      "G25 - TREATMENT DISPOSAL OR RECYCLING OF HAZARDOUS WASTES",
+      "G26 - STORAGE AND DISPOSAL UNIT LEACHATE COLLECTION",
+      "G27 - TREATMENT OR RECOVERY OF UNIVERSAL WASTE",
+      "G31 - ACCIDENTAL CONTAMINATION OF PRODUCTS MATERIALS OR CONTAINERS",
+      "G32 - CLEANUP OF SPILL RESIDUES",
+      "G33 - LEAK COLLECTION AND FLOOR SWEEPING",
+      "G39 - OTHER CLEANUP OF CURRENT CONTAMINATION",
+      "G41 - CLOSURE OF HAZARDOUS WASTE MANAGEMENT UNIT UNDER RCRA",
+      "G42 - CORRECTIVE ACTION AT A SOLID WASTE MANAGEMENT UNIT UNDER RCRA",
+      "G43 - REMEDIAL ACTION OR EMERGENCY RESPONSE UNDER SUPERFUND",
+      "G44 - CLEANUP UNDER STATE OR VOLUNTARY PROGRAM",
+      "G45 - CLEANUP OF UNDERGROUND STORAGE TANK",
+      "G49 - OTHER REMEDIATION",
+      "G51 - RECEIVED HW FROM A VSQG THAT IS UNDER THE CONTROL OF THE SAME PERSON AS DEFINED IN 40 CFR 260.10.",
+      "G61 - HW RECEIVED FROM OFF SITE FOR STORAGE / BULKING AND TRANSFER OFF SITE FOR TREATMENT OR DISPOSAL.",
+      "G62 - HAZARDOUS WASTE RECEIVED FROM A SITE LOCATED OUTSIDE OF U.S. STATES TERRITORIES OR PROTECTORATES",
+      "G63 - HAZARDOUS WASTE RECEIVED FROM ANTARCTICA",
+      "G64 - HAZARDOUS WASTE RECEIVED FROM ARUBA",
+      "G65 - HAZARDOUS WASTE RECEIVED FROM BAHAMAS",
+      "G66 - HAZARDOUS WASTE RECEIVED FROM BELGIUM",
+      "G67 - HAZARDOUS WASTE RECEIVED FROM BRAZIL",
+      "G68 - HAZARDOUS WASTE RECEIVED FROM CANADA",
+      "G69 - HAZARDOUS WASTE RECEIVED FROM HOLLAND",
+      "G70 - HAZARDOUS WASTE RECEIVED FROM MALAYSIA",
+      "G71 - HAZARDOUS WASTE RECEIVED FROM MEXICO",
+      "G72 - HAZARDOUS WASTE RECEIVED FROM NEW ZEALAND",
+      "G73 - HAZARDOUS WASTE RECEIVED FROM TAIWAN",
+      "G74 - HAZARDOUS WASTE RECEIVED FROM VENEZUELA",
+      "G75 - HAZARDOUS WASTE RECEIVED FROM OTHER FOREIGN COUNTRY - SEE COMMENTS FOR COUNTRY NAME",
+      "G76 - EVALUATED HW PHARMACEUTICALS ACCUMULATED BY A REVERSE DISTRIBUTOR",
+      "G77 - AIRBAG WASTE RECEIVED FROM AIRBAG WASTE HANDLERS EXEMPTED UNDER 40 CFR 261.7(j) PRIOR TO ARRIVAL AT THE AIRBAG COLLECTION FACILITY OR DESIGNATED FACILITY"
+    ],
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+    "Origin Code": {
+    "database": "network",
+    "table_name": "generator_regulatoryinformation",
+    "name": "OriginCode",
+    "options": [
+      "N/A",
+      "1 - Was generated on-site from a product or service activity.",
+      "2 - Resulted from a spill clean-up equipment decommissioning or emergency removal.",
+      "3 - Derived from the on-site management of a non-hazardous waste.",
+      "4 - Was received from off-site and was not recycled or treated on-site.",
+      "5 - Was residual from the on-site treatment disposal or recycling of previously existing hazardous waste.",
+      "6 - Was from a state federal or locally funded cleanup.",
+      "7 - Was from a corrective action or closure."
+    ],
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "EPA Form Code": {
+    "database": "network",
+    "table_name": "generator_regulatoryinformation",
+    "name": "EPAFormCode",
+    "options": [
+      "W001 - LAB PACKS FROM string SOURCE NOT CONTAINING ACUTE HAZARDOUS WASTE",
+      "W002 - CONTAMINATED DEBRIS: PAPER CLOTHING RAGS WOOD EMPTY FIBER OR PLASTIC CONTAINERS GLASS PIPING OTHER SOLIDS",
+      "W004 - LAB PACKS FROM string SOURCE CONTAINING ACUTE HAZARDOUS WASTE",
+      "W005 - WASTE PHARMACEUTICALS MANAGED AS HAZARDOUS WASTE",
+      "W006 - AIRBAG WASTE (AIRBAG MODULES OR AIRBAG INFLATORS MANAGED AS HAZARDOUS WASTE)",
+      "W301 - CONTAMINATED SOIL",
+      "W309 - BATTERIES BATTERY PARTS CORES CASINGS",
+      "W310 - FILTERS SOLID ADSORBENTS ION EXCHANGE RESINS AND SPENT CARBON",
+      "W320 - ELECTRICAL DEVICES (LAMPS THERMOSTATS CRTS ETC.)",
+      "W512 - SEDIMENT OR LAGOON DRAGOUT DRILLING OR OTHER MUDS",
+      "W801 - COMPRESSED GAS",
+      "W101 - VERY DILUTE AQUEOUS WASTE CONTAINING MORE THAN 99% WATER",
+      "W103 - SPENT CONCENTRATED ACID",
+      "W105 - ACIDIC AQUEOUS WASTES LESS THAN 5% ACID",
+      "W107 - AQUEOUS WASTE CONTAINING CYANIDES",
+      "W110 - CAUSTIC AQUEOUS WASTE WITHOUT CYANIDES",
+      "W113 - OTHER AQUEOUS WASTE OR WASTEWATERS",
+      "W117 - WASTE LIQUID MERCURY",
+      "W119 - OTHER INORGANIC LIQUID",
+      "W200 - STILL BOTTOMS IN LIQUID FORM",
+      "W202 - CONCENTRATED HALOGENATED (E.G. CHLORINATED) SOLVENT",
+      "W203 - CONCENTRATED NON-HALOGENATED (E.G. NON-CHLORINATED) SOLVENT",
+      "W204 - CONCENTRATED HALOGENATED / NON-HALOGENATED SOLVENT MIXTURE",
+      "W205 - OIL-WATER EMULSION OR MIXTURE",
+      "W206 - WASTE OIL MANAGED AS HAZARDOUS WASTE",
+      "W209 - PAINT INK LACQUER OR VARNISH",
+      "W210 - REACTIVE OR POLYMERIZABLE ORGANIC LIQUIDS AND ADHESIVES",
+      "W211 - PAINT THINNER OR PETROLEUM DISTILLATES",
+      "W219 - OTHER ORGANIC LIQUID",
+      "W303 - ASH",
+      "W304 - SLAGS DROSSES AND OTHER SOLID THERMAL RESIDUES",
+      "W307 - METAL SCALE FILINGS AND SCRAP (INCLUDING METAL DRUMS)",
+      "W312 - CYANIDE OR METAL CYANIDE BEARING SOLIDS SALTS OR CHEMICALS",
+      "W316 - METAL SALTS OR CHEMICALS NOT CONTAINING CYANIDES",
+      "W319 - OTHER INORGANIC SOLIDS",
+      "W401 - PESTICIDE SOLIDS",
+      "W403 - SOLID RESINS PLASTICS OR POLYMERIZED ORGANICS",
+      "W405 - EXPLOSIVES OR REACTIVE ORGANIC SOLIDS",
+      "W406 - DRIED PAINT (PAINT CHIPS FILTERS AIR FILTERS OTHER)",
+      "W409 - OTHER ORGANIC SOLIDS",
+      "W501 - LIME AND/OR METAL HYDROXIDE SLUDGES AND SOLIDS WITH NO CYANIDES",
+      "W503 - GYPSUM SLUDGES FROM WASTEWATER TREATMENT OR AIR POLLUTION CONTROL",
+      "W504 - OTHER SLUDGES FROM WASTEWATER TREATMENT OR AIR POLLUTION CONTROL",
+      "W505 - METAL BEARING SLUDGES (INCLUDING PLATING SLUDGE) NOT CONTAINING CYANIDES",
+      "W506 - CYANIDE-BEARING SLUDGES",
+      "W519 - OTHER INORGANIC SLUDGES",
+      "W603 - OILY SLUDGE",
+      "W604 - PAINT OR INK SLUDGES STILL BOTTOMS IN SLUDGE FORM",
+      "W606 - RESINS TARS POLYMER OR TARRY SLUDGE",
+      "W609 - OTHER ORGANIC SLUDGE"
+    ],
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "Determination by generator knowledge": {
+    "database": "network",
+    "table_name": "generator_regulatoryinformation",
+    "name": "WasteDetermination_GenKnowledge",
+    "options": ["true", "false"],
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "Determination by SDS": {
+    "database": "network",
+    "table_name": "generator_regulatoryinformation",
+    "name": "WasteDetermination_SDS",
+    "options": ["true", "false"],
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "Determination by waste analysis": {
+    "database": "network",
+    "table_name": "generator_regulatoryinformation",
+    "name": "WasteDetermination_WasteAnalysis",
+    "options": ["true", "false"],
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "Analysis Date (mm-dd-yyyy)": {
+    "database": "network",
+    "table_name": "generator_regulatoryinformation",
+    "name": "Analysis_Date",
+    "options": "",
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "Representative Sample Certification": {
+    "database": "network",
+    "table_name": "generator_regulatoryinformation",
+    "name": "AdditionalInformationSampleCertification",
+    "options": "NO SAMPLE TAKEN",
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "Volume of waste to be shipped:": {
+    "database": "network",
+    "table_name": "generator_shippingandpackaginginformation",
+    "name": "ShippingAndPackagingVolume",
+    "options": "",
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "Volume Type": {
+    "database": "network",
+    "table_name": "generator_shippingandpackaginginformation",
+    "name": "ShippingAndPackagingVolumeType",
+    "options": "",
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "Frequency": {
+    "database": "network",
+    "table_name": "generator_shippingandpackaginginformation",
+    "name": "ShippingAndPackagingFrequency",
+    "options": ["One Time", "Monthly", "Quarterly", "Annually", "Other"],
+    "Context": "",
+    "Associated Question": "Frequency - Other",
+    "trigger": "Other"
+  },
+  "Frequency - Other": {
+    "database": "network",
+    "table_name": "generator_shippingandpackaginginformation",
+    "name": "shipping_packaging_frequency_plus_option",
+    "options": "",
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "Is waste a combination package (e.g. Drum w/ inner containers or skid w/ cases of consumer products)?": {
+    "database": "network",
+    "table_name": "generator_shippingandpackaginginformation",
+    "name": "ShippingAndPackagingWasteCombinationPackage",
+    "options": ["Yes", "No"],
+    "Context": "",
+    "Associated Question": "Is waste a combination package (e.g. Drum w/ inner containers or skid w/ cases of consumer products)?",
+    "trigger": "Yes"
+  },
+  "If waste is a combination package, what are the inner Container Sizes?": {
+    "database": "network",
+    "table_name": "generator_shippingandpackaginginformation",
+    "name": "InnerContainerSizes",
+    "options": "",
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "Transportation Requirements": {
+    "database": "network",
+    "table_name": "generator_shippingandpackaginginformation",
+    "name": "TransportationRequirement",
+    "options": ["Containerized", "Bulk Liquid", "Bulk Solid"],
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "Containers/Shipment": {
+    "database": "network",
+    "table_name": "generator_shippingandpackaginginformation",
+    "name": "TransContainer_Shipment",
+    "options": "",
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "Storage Capacity": {
+    "database": "network",
+    "table_name": "generator_shippingandpackaginginformation",
+    "name": "TransContainer_StorageCap",
+    "options": "",
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "Storage Type - Portable Tote Tank": {
+    "database": "network",
+    "table_name": "generator_shippingandpackaginginformation",
+    "name": "TransContainer_PortableToteTank",
+    "options": ["true", "false"],
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "Storage Type - Box Carton Case": {
+    "database": "network",
+    "table_name": "generator_shippingandpackaginginformation",
+    "name": "TransContainer_BoxCartonCase",
+    "options": ["true", "false"],
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "Storage Type - Cubic Yard Box": {
+    "database": "network",
+    "table_name": "generator_shippingandpackaginginformation",
+    "name": "TransContainer_CubicYardBox",
+    "options": ["true", "false"],
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "Storage Type - Drum": {
+    "database": "network",
+    "table_name": "generator_shippingandpackaginginformation",
+    "name": "TransContainer_Drum",
+    "options": ["true", "false"],
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "Storage Type - Other": {
+    "database": "network",
+    "table_name": "generator_shippingandpackaginginformation",
+    "name": "TransContainer_Other",
+    "options": ["true", "false"],
+    "Context": "",
+    "Associated Question": "Storage Type - Other Description",
+    "trigger": "true"
+  },
+  "Storage Type - Other Description": {
+    "database": "Network",
+    "table_name": "generator_shippingandpackaginginformation",
+    "name": "TransContainer_OtherDesc",
+    "options": "",
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "Drum Size": {
+    "database": "network",
+    "table_name": "generator_shippingandpackaginginformation",
+    "name": "TransContainer_DrumSize",
+    "options": "",
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "If storage type is Portable Tote Tank, what is the Portable Tote Tank Size?": {
+    "database": "network",
+    "table_name": "generator_shippingandpackaginginformation",
+    "name": "TransContainer_PortToteTankSize",
+    "options": "",
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "Is this a U.S Department of Transportation (USDOT) Hazardous Material?": {
+    "database": "network",
+    "table_name": "generator_shippingandpackaginginformation",
+    "name": "ShippingAndPackagingUSDOT",
+    "options": ["Yes", "No"],
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "USDOT Comment": {
+    "database": "network",
+    "table_name": "generator_shippingandpackaginginformation",
+    "name": "ShippingAndPackagingUSDOTComment",
+    "options": "",
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "TSDF Specific DOT Information": {
+    "database": "network",
+    "table_name": "generator_shippingandpackaginginformation",
+    "name": "",
+    "options": "",
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  },
+  "Land Ban Regulatory Information": {
+    "database": "network",
+    "table_name": "generator_landban",
+    "name": "TreatmentStandard",
+    "options": [
+      "Not Applicable",
+      "A. Restricted Waste Meets Treatment Standards (40 CFR 268.7(a) (3))",
+      "B. Restricted Waste Treated To Treatment Standards (40 CFR 268.7(b) (I) and 268.7 (b) (2))",
+      "C. Restricted Waste With Technology Based Treatment Standards (40 CFR 268.7(b) (4))",
+      "D. Restricted Waste Decharacterized But Requires Treatment For UHC (40 CFR 268.9)",
+      "E. Restricted Waste Subject To Treatment (40 CFR 268.7(a) (2))",
+      "F. Hazardous Debris Subject To Treatment (40 CFR 268.45)",
+      "G. Restricted Waste Subject To A Variance or Extension (40 CFR 268.7(a) (4))",
+      "H. Restricted Waste Managed In A \"Lab Pack\" (40 CFR 268.7(a) (9))"
+    ],
+    "Context": "",
+    "Associated Question": "",
+    "trigger": ""
+  }
+}

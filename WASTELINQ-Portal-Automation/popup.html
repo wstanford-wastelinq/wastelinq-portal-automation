@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WASTELINQ TSD Portal Automation</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <h2>WASTELINQ TSD Portal Automation</h2>
+  
+  <input type="number" id="profileId" placeholder="Enter Profile ID">
+  <button id="searchButton">Search</button>
+
+  <div id="result" class="result-container">
+    <h3>Profile Details:</h3>
+    <p><strong>ID:</strong> <span id="displayId"></span></p>
+    <p><strong>Name:</strong> <span id="displayName"></span></p>
+    <p><strong>Waste Stream:</strong> <span id="wasteStream"></span></p>
+    <p><strong>Process:</strong> <span id="process"></span></p>
+    <button id="fillButton">Fill Form with This Data</button>
+  </div>
+
+  <div id="status"></div>
+  <script src="popup.js"></script>
+</body>
+</html>

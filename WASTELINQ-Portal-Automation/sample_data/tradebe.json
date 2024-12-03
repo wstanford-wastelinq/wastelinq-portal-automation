@@ -1,0 +1,102 @@
+{
+    "wasteStream": {
+        "__input3-__clone41-inner": "01 - Draft",
+        "__input3-__clone48-inner": "AUTO-12345",
+        "__input3-__clone50-inner": "CUST-54321",
+        "__input3-__clone52-inner": "TX12345",
+        "__input3-__clone54-inner": "Used Industrial Coolant",
+        "__area1-__clone56-inner": "Generated from CNC machining operations and cooling systems maintenance",
+        "__box1-__clone58-inner": "N",
+        "__box1-__clone62-inner": "N",
+        "__input3-__clone60-inner": "test",
+        "__box2-__clone64-inner": ["Generator Knowledge"],
+        "__box1-__clone68-inner": "W103 - SPENT CONCENTRATED ACID",
+        "__box1-__clone70-inner": "G07 - DISCARDING OFF-SPECIFICATION MATERIALS"
+    },
+    "wasteCharacteristics": {
+        "__box3-__clone72-inner": ["OXIDIZER", "HEXACHROME"],
+        "__input4-__clone74-inner": "150",
+        "__input4-__clone76-inner": "1.2",
+        "__input4-__clone78-inner": "15",
+        "__input4-__clone80-inner": "5",
+        "__input4-__clone82-inner": "10",
+        "__box4-__clone84-inner": "STRONG",
+        "__input4-__clone86-inner": "amines",
+        "__input4-__clone88-inner": "BLUE",
+        "__box4-__clone90-inner": "LIQUID",
+        "__box4-__clone94-inner": "2",
+        "__box4-__clone98-inner": "5000 - 10000",
+        "__box4-__clone100-inner": "2.0 - 5.9",
+        "__box4-__clone102-inner": "100 - 139 F",
+        "__input4-__clone104-inner": "212"
+    },
+    "chemicalComposition": {
+        "__input5-__clone191-inner": "Sulfuric Acid",
+        "__cas0-__clone192-inner": "7664-93-9",
+        "__input6-__clone193-inner": "10",
+        "__input7-__clone194-inner": "15",
+
+        "__input5-__clone1091-inner": "Water",
+        "__cas0-__clone1092-inner": "7732-18-5",
+        "__input6-__clone1093-inner": "85",
+        "__input7-__clone1094-inner": "90",
+
+        "__input5-__clone1097-inner": "Chemical 3",
+        "__cas0-__clone1098-inner": "1234-56-7",
+        "__input6-__clone1099-inner": "20",
+        "__input7-__clone1100-inner": "25",
+
+        "__input5-__clone1103-inner": "Chemical 4",
+        "__cas0-__clone1104-inner": "7890-12-3",
+        "__input6-__clone1105-inner": "30",
+        "__input7-__clone1106-inner": "35",
+
+        "__input5-__clone1109-inner": "Chemical 5",
+        "__cas0-__clone1110-inner": "4567-89-0",
+        "__input6-__clone1111-inner": "40",
+        "__input7-__clone1112-inner": "45"
+    },
+    "additionalInfo": {
+        "__box9-__clone107-inner": ["METAL PIECES"],
+        "__input8-__clone109-inner": ["Sharps"],
+        "__input8-__clone111-inner": "1",
+        "__input8-__clone113-inner": "0",
+        "__box10-__clone115-inner": "5",
+        "__box10-__clone117-inner": "N",
+        "__box10-__clone119-inner": "Y",
+        "__box10-__clone121-inner": "Y",
+        "__box10-__clone123-inner": "Y",
+        "__box10-__clone125-inner": "Y",
+        "__box10-__clone127-inner": "Y",
+        "__box10-__clone131-inner": "N"
+    },
+    "rcraCharacterization": {
+        "__box11-__clone133-inner": "Y",
+        "__box11-__clone135-inner": "N",
+        "__box11-__clone137-inner": "N",
+        "__box12-__clone139-inner": ["001"],
+        "__box11-__clone145-inner": "N",
+        "__box11-__clone147-inner": "Y"
+    },
+    "shippingInfo": {
+        "__box13-__clone149-inner": "N",
+        "__box13-__clone153-inner": "N",
+        "__box13-__clone157-inner": "Y",
+        "__box14-__clone159-inner": ["METAL"],
+        "__box14-__clone161-inner": ["5 GAL"],
+        "__box14-__clone165-inner": ["METAL"],
+        "__box13-__clone167-inner": "MONTHLY",
+        "__input9-__clone171-inner": "25",
+        "__box13-__clone173-inner": "N"
+    },
+    "DOT_shipping_information": {
+        "__box15-__clone175-inner": "YES",
+        "__vol0-inner": "WASTE CORROSIVE LIQUID, TOXIC, N.O.S.",
+        "__box15-__clone178-inner": "Y",
+        "__area2-__clone180-inner": "Contains: Sulfuric Acid, Chromium",
+        "__input10-__clone182-inner": "RQ (D002, D007) 100 LBS",
+        "__box15-__clone184-inner": "N",
+        "__input10-__clone188-inner": "WASTE CORROSIVE LIQUID, TOXIC, N.O.S. (CONTAINS: SULFURIC ACID, CHROMIUM), 8 (6.1), UN2922, II, RQ (D002, D007) 100 LBS"
+    }
+
+}

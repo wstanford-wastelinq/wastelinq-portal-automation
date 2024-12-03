@@ -1,0 +1,68 @@
+{
+  "__input3-__clone50-inner": 114513,
+  "__input3-__clone52-inner": "VSQG219H",
+  "__input3-__clone54-inner": "",
+  "__area1-__clone56-inner": "spent acid reagents from food testing",
+  "__box1-__clone58-inner": "N",
+  "__box1-__clone62-inner": "N",
+  "__box2-__clone64-inner": [
+    "Generator Knowledge"
+  ],
+  "__box1-__clone68-inner": "W219",
+  "__box1-__clone70-inner": "G22 - LABORATORY ANALYTICAL WASTES (USED CHEMICALS)",
+  "__box3-__clone72-inner": [],
+  "__input4-__clone74-inner": "1",
+  "__input4-__clone76-inner": "",
+  "__input4-__clone78-inner": null,
+  "__box4-__clone84-inner": "MILD",
+  "__input4-__clone86-inner": null,
+  "__input4-__clone88-inner": "clear to yellow",
+  "__box4-__clone90-inner": "LIQUID",
+  "__box4-__clone94-inner": "SINGLE",
+  "__box4-__clone98-inner": "3,000 - 5,000",
+  "__box4-__clone100-inner": "< =2.0",
+  "__box4-__clone102-inner": "> 200 F",
+  "__box9-__clone107-inner": [
+    "SHARPS"
+  ],
+  "__input8-__clone109-inner": "",
+  "__input8-__clone111-inner": null,
+  "__input8-__clone113-inner": null,
+  "__box10-__clone117-inner": "N",
+  "__box10-__clone119-inner": "N",
+  "__box10-__clone123-inner": "N",
+  "__box10-__clone125-inner": "N",
+  "__box10-__clone127-inner": "Y",
+  "__box10-__clone131-inner": "N",
+  "__box11-__clone133-inner": "Y",
+  "__box11-__clone135-inner": "N",
+  "__box11-__clone137-inner": "N",
+  "__box12-__clone139-inner": [
+    "D002",
+    "VSQG219H"
+  ],
+  "__box11-__clone145-inner": "N",
+  "__box11-__clone147-inner": "N",
+  "__box13-__clone149-inner": "N",
+  "__input9-__clone151-inner": "30 Gals",
+  "__box13-__clone153-inner": "N",
+  "__input9-__clone155-inner": "30 Gals",
+  "__box13-__clone157-inner": "N",
+  "__box14-__clone159-inner": [
+    "METAL",
+    "PLASTIC IN METAL CAGE"
+  ],
+  "__box14-__clone161-inner": [
+    "30 GALLON CONTAINER"
+  ],
+  "__box13-__clone167-inner": "PER YEAR",
+  "__input9-__clone171-inner": 5,
+  "__box13-__clone173-inner": "N",
+  "__box15-__clone175-inner": "Y",
+  "__vol0-inner": "UN1760",
+  "__box15-__clone178-inner": "Y",
+  "__area2-__clone180-inner": "ACETIC ACID, HYDROCHLORIC ACID",
+  "__input10-__clone182-inner": "",
+  "__box15-__clone184-inner": "N",
+  "__input10-__clone186-inner": ""
+}
