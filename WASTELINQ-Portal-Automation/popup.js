@@ -54,6 +54,11 @@ document.getElementById('fillButton').addEventListener('click', async () => {
         return;
     }
 
+    const requestData = {
+        targetPortal: "tradebe",
+        ...profileData  
+    };
+
     try {
         showStatus("Mapping data...", "loading");
 
@@ -62,7 +67,7 @@ document.getElementById('fillButton').addEventListener('click', async () => {
             headers: {
                 'Content-Type': 'application/json'
             },
-            body: JSON.stringify(profileData)
+            body: JSON.stringify(requestData)
         });
 
         if (!mappingResponse.ok) {
